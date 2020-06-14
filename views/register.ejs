@@ -1,0 +1,10 @@
+<h1>This is the registration page</h1>
+<% include components/nav %>
+
+<form action="/register" method="POST">
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username" placeholder="username" required>
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" placeholder="password" required>
+  <button>Submit</button>
+</form>
